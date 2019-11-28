@@ -6,6 +6,7 @@ target 'AlamofireDemo' do
   use_frameworks!
     pod 'Alamofire'
     pod 'SwiftyJSON'
+    pod 'IQKeyboardManagerSwift'
   # Pods for AlamofireDemo
 
 end

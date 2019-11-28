@@ -8,4 +8,10 @@
 
 import Foundation
 
-var fetch_Url = "https://jsonplaceholder.typicode.com/users"
+let fetch_Url = "https://jsonplaceholder.typicode.com/users"
+let mainPath:String = "http://youtubedemo.thenextwebs.com/api/"
+let signup = mainPath + "user/signup"
+let userLogin = mainPath + "user/login"
+let apiCategory = mainPath + "category"
+let apiCategoryImageList = mainPath + "file?"
+

@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362CA4AA238D173500AC1E3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CA4A9238D173500AC1E3E /* LoginViewController.swift */; };
+		362CA4AC238D177200AC1E3E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CA4AB238D177200AC1E3E /* HomeViewController.swift */; };
+		362CA4AE238D26B800AC1E3E /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CA4AD238D26B800AC1E3E /* CategoryCollectionViewCell.swift */; };
+		363BBCE6238E35DF002F03DA /* ImageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363BBCE5238E35DF002F03DA /* ImageListViewController.swift */; };
+		363BBCE8238E3617002F03DA /* ImageListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363BBCE7238E3617002F03DA /* ImageListCollectionViewCell.swift */; };
 		364F6328238BC75D0004BDDD /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364F6327238BC75D0004BDDD /* Extention.swift */; };
 		364F632A238BCADE0004BDDD /* UserTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364F6329238BCADE0004BDDD /* UserTableView.swift */; };
+		364F632D238BE0680004BDDD /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364F632C238BE0680004BDDD /* Reachability.swift */; };
+		364F632F238BE3070004BDDD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364F632E238BE3070004BDDD /* SignUpViewController.swift */; };
 		36EFC4B92388FF6A0080A8CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EFC4B82388FF6A0080A8CF /* AppDelegate.swift */; };
 		36EFC4BB2388FF6A0080A8CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EFC4BA2388FF6A0080A8CF /* ViewController.swift */; };
 		36EFC4BE2388FF6A0080A8CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EFC4BC2388FF6A0080A8CF /* Main.storyboard */; };
@@ -23,8 +30,15 @@
 
 /* Begin PBXFileReference section */
 		361409A73182F8169F160DFC /* Pods-AlamofireDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireDemo/Pods-AlamofireDemo.release.xcconfig"; sourceTree = "<group>"; };
+		362CA4A9238D173500AC1E3E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		362CA4AB238D177200AC1E3E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		362CA4AD238D26B800AC1E3E /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		363BBCE5238E35DF002F03DA /* ImageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewController.swift; sourceTree = "<group>"; };
+		363BBCE7238E3617002F03DA /* ImageListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListCollectionViewCell.swift; sourceTree = "<group>"; };
 		364F6327238BC75D0004BDDD /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
 		364F6329238BCADE0004BDDD /* UserTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableView.swift; sourceTree = "<group>"; };
+		364F632C238BE0680004BDDD /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		364F632E238BE3070004BDDD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		36EFC4B52388FF6A0080A8CF /* AlamofireDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EFC4B82388FF6A0080A8CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36EFC4BA2388FF6A0080A8CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				36EFC4CA238913710080A8CF /* UserTableViewCell.swift */,
+				362CA4AD238D26B800AC1E3E /* CategoryCollectionViewCell.swift */,
 				364F6329238BCADE0004BDDD /* UserTableView.swift */,
+				363BBCE7238E3617002F03DA /* ImageListCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				36EFC4BA2388FF6A0080A8CF /* ViewController.swift */,
+				364F632E238BE3070004BDDD /* SignUpViewController.swift */,
+				362CA4A9238D173500AC1E3E /* LoginViewController.swift */,
+				362CA4AB238D177200AC1E3E /* HomeViewController.swift */,
+				363BBCE5238E35DF002F03DA /* ImageListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -108,6 +128,14 @@
 				364F6327238BC75D0004BDDD /* Extention.swift */,
 			);
 			path = Extention;
+			sourceTree = "<group>";
+		};
+		364F632B238BE0410004BDDD /* ConnectionCheck */ = {
+			isa = PBXGroup;
+			children = (
+				364F632C238BE0680004BDDD /* Reachability.swift */,
+			);
+			path = ConnectionCheck;
 			sourceTree = "<group>";
 		};
 		36EFC4AC2388FF690080A8CF = {
@@ -131,6 +159,7 @@
 		36EFC4B72388FF6A0080A8CF /* AlamofireDemo */ = {
 			isa = PBXGroup;
 			children = (
+				364F632B238BE0410004BDDD /* ConnectionCheck */,
 				364F6326238BC73E0004BDDD /* Extention */,
 				364F6325238BC5730004BDDD /* Controller */,
 				364F6324238BC5620004BDDD /* View */,
@@ -271,6 +300,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireDemo/Pods-AlamofireDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -278,6 +308,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,10 +327,17 @@
 				36EFC4BB2388FF6A0080A8CF /* ViewController.swift in Sources */,
 				36EFC4CB238913710080A8CF /* UserTableViewCell.swift in Sources */,
 				36EFC4D0238936230080A8CF /* HelperMethod.swift in Sources */,
+				364F632F238BE3070004BDDD /* SignUpViewController.swift in Sources */,
 				36EFC4D223893EEA0080A8CF /* ConstantUrl.swift in Sources */,
+				363BBCE8238E3617002F03DA /* ImageListCollectionViewCell.swift in Sources */,
+				362CA4AE238D26B800AC1E3E /* CategoryCollectionViewCell.swift in Sources */,
+				364F632D238BE0680004BDDD /* Reachability.swift in Sources */,
 				36EFC4CD2389167C0080A8CF /* UserModel.swift in Sources */,
 				36EFC4B92388FF6A0080A8CF /* AppDelegate.swift in Sources */,
+				363BBCE6238E35DF002F03DA /* ImageListViewController.swift in Sources */,
 				364F6328238BC75D0004BDDD /* Extention.swift in Sources */,
+				362CA4AA238D173500AC1E3E /* LoginViewController.swift in Sources */,
+				362CA4AC238D177200AC1E3E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

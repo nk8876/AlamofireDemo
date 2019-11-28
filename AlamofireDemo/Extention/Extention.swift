@@ -41,5 +41,13 @@ extension UIViewController {
             spinner.subviews.last?.removeFromSuperview()
         }
    }
+    
+    func showAlertMessage(title:String, message: String)   {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let closeAction = UIAlertAction(title: "Close", style: UIAlertAction.Style.cancel) { (action) in
+        }
+        alert.addAction(closeAction)
+        self.present(alert, animated: true, completion: nil)
+    }
 }
 
